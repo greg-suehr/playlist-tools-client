@@ -1,7 +1,5 @@
 import React from 'react';
-import Sidebar from 'react-sidebar';
-
-import List from './List';
+import {Sidebar, Barside} from './Sidebar';
 
 import logo from './icon-green.png';
 import './App.css';
@@ -39,14 +37,10 @@ class Playlists extends React.Component {
     render() {
 	return (
             <div className="App-body">
-		<div className="App-sidebar"> 
-		<Sidebar
-		    sidebar={ <List /> }
-		    open={this.state.sidebarOpen}
-		    docked={this.state.sidebarDocked}
-		    onSetOpen={this.state.onSetOpen}
-		/>
-		</div>
+		{
+		    // <Sidebar />
+		}
+		 <Barside />   
 		<p>
                     More stuff down here!
 		</p>

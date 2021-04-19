@@ -38,18 +38,24 @@
 }
 
 .App-sidebar {
-    /*  background-color: #282c34; */
-  background-color: #cccccc;
+  background-color: #282c34;
+  color: white;
+  font-size: calc(10px + 2vmin);
+  padding: 5px;
+  position: fixed;
+  left: 0;    
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: left;
+  justify-content: left;
 }
 
-.App-side ListItem {
-    color: green;
+.Sidebar-element {
+  background-color: #282c34;
+  color: white;
+  font-size: calc(10px + 2vmin);
+  padding: 5px;
+  text-align: left;
 }
 
 .App-link {
